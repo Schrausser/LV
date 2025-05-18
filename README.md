@@ -2,28 +2,28 @@
 
 Android exposure calculator Lightvalues `LV` for calculating *aperture values*  ​ $Av$ corresponding to *light values*[^1] by *shifting* the time value $Tv=s^{-1}$ or arithmetic $ISO$ speed value $S$ in steps $k$ according to the common classification,  where
 
-$$Tv_n=Tv_{n-k}\cdot 2^k,S_n=S_{n+k}\cdot 2^k$$
+$$Tv_n=Tv_{n-k}\cdot 2^k,S_n=S_{n+k}\cdot 2^k,$$
 
 $$Tv_n=\frac{Tv_{n+k}}{2^k},S_n=\frac{S_{n-k}}{2^k}$$
 
 and
 
-$$Av_{(Tv_n)}=Av_{(Tv_{n-k})}\cdot\sqrt[]2^k=\frac{Av_{(Tv_{n+k})}}{\sqrt[]2^k}$$
+$$Av_{(Tv_n)}=Av_{(Tv_{n-k})}\cdot\sqrt[]2^k=\frac{Av_{(Tv_{n+k})}}{\sqrt[]2^k},$$
 
-$$Av_{(S_n)}=Av_{(S_{n+k})}\cdot\sqrt[4]2^k=\frac{Av_{(S_{n-k})}}{\sqrt[4]2^k}$$
+$$Av_{(S_n)}=Av_{(S_{n+k})}\cdot\sqrt[4]2^k=\frac{Av_{(S_{n-k})}}{\sqrt[4]2^k}.$$
 
-Therefore $Av$ is calculated from $Tv$ or $S$ as
+Therefore $Av$ is calculated from $Tv$ or $S$ by
 
 $$Av_{Tv}=Av_{Tv_0}\cdot a_{Tv},Av_S=Av_{S_0}\cdot a_{S}$$
 
 with
 
-$$a_{Tv}=2^{\frac{1}{2}\cdot\log2\frac{Tv_0}{Tv}}=e^{\frac{1}{2}\cdot\log\frac{Tv_0}{Tv}}$$
+$$a_{Tv}=2^{\frac{1}{2}\cdot\log2\frac{Tv_0}{Tv}}=e^{\frac{1}{2}\cdot\log\frac{Tv_0}{Tv}},$$
 
 
 $$a_S=2^{\frac{1}{4}\cdot\log2\frac{S}{S_0}}=e^{\frac{1}{4}\cdot\log\frac{S}{S_0}}.$$
 
-The shutter speed is set in the range between $Tv=32000s$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between $ISO 6$ and $ISO 52000$.
+The shutter speed is set in the range between $Tv=32000$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between $ISO 6$ and $ISO 52000$.
 On aperture, shutter speed and exposure see e.g. Roberts ([1995](https://doi.org/10.1007/978-1-349-13506-6_5)), Beaver ([2018](https://doi.org/10.1088/2053-2571/aae504ch3)), Bernacki ([2020](https://doi.org/10.1007/s11042-019-08318-1)) and Simon et al. ([2022](https://doi.org/10.3390/s22051871)).
 
 Logarithmic speed $S°$ (s. Allbright,  [1991](https://doi.org/10.1080/00223638.1991.11737126)) is transformed from arithmetic speed $S$ by
