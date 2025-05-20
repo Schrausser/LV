@@ -23,7 +23,7 @@ $$a_{Tv}=2^{\frac{1}{2}\cdot\log2\frac{Tv_0}{Tv}}=e^{\frac{1}{2}\cdot\log\frac{T
 
 $$a_S=2^{\frac{1}{2}\cdot\log2\frac{S}{S_0}}=e^{\frac{1}{2}\cdot\log\frac{S}{S_0}}.\{(7)}$$
 
-The shutter speed is set in the range between $Tv=32000$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between *ISO 6* and *ISO 52000*.
+The shutter speed is set in the range between $Tv=32000$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between *ISO 0.38* and *ISO 102400*.
 On aperture, shutter speed and exposure see e.g. Roberts ([1995](https://doi.org/10.1007/978-1-349-13506-6_5)), Beaver ([2018](https://doi.org/10.1088/2053-2571/aae504ch3)), Bernacki ([2020](https://doi.org/10.1007/s11042-019-08318-1)) and Simon et al. ([2022](https://doi.org/10.3390/s22051871)).
 
 Logarithmic speed $S°$ (s. Allbright,  [1991](https://doi.org/10.1080/00223638.1991.11737126)) is transformed from arithmetic speed $S$ by
@@ -39,9 +39,9 @@ $$Ev=\log2\frac{{Av}^2}{Tv^{-1}}=\frac{\log(Tv\cdot Av^2)}{\log(2)},Tv=\frac{2^{
 
 For logarithmic functions in general see e.g. Marsden and Weinstein ([1985](https://doi.org/10.1007/978-1-4612-5024-1_9)), Howie ([2001](https://doi.org/10.1007/978-1-4471-0341-7_6)) and Sobot ([2021](https://doi.org/10.1007/978-3-030-79545-0_4)).
 
-Presets for time and aperture combinations at *ISO 100/21°* are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations can be achieved by *shifting*  $Av$ itself. 
+Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations can be achieved by *shifting*  $Av$ itself. 
 
-Table 1. Exposure presets for $Tv$, $Av$ and $Ev$ at *ISO 100/21°* by condition *cnd*.
+Table 1. Exposure presets for $Tv$, $Av$ and $Ev$ (10) at *ISO 100/21°* by condition *cnd*.
 ~~~
 cnd    	 	Tv	Av	Ev
 
@@ -52,9 +52,9 @@ Dawn 		15 	4	8
 Indoors 	15 	2.8	7
 ~~~
 
-In addition, direct calculations of aperture $Av$ from shutter speed $Tv$ and $S$ can be performed (s. Tab. 2). This should be used when shutter speeds outside the usual steps (see above) are present or when only one shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed.
+In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (s. Tab. 2). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only one shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed.
 
-Table 2. $Av$ for $Tv$ at *ISO 100/21°* and *ISO 400/27°* with $Ev$ by condition *cnd*.
+Table 2. $Av$ for $Tv$ (5) (6) at *ISO 100/21°* and *ISO 400/27°* with $Ev$ (10) by condition *cnd*.
 ~~~
 cnd		Tv				Ev
 ISO 100/21°	250	100	60	45
