@@ -57,9 +57,9 @@ In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6
 Table 2. $Av$ for $Tv$ (5) (6) at *ISO 100/21°* and *ISO 400/27°* with $Ev$ (10) by condition *cnd*.
 ~~~
 cnd		Tv				Ev
-ISO 100/21°	250	100	60	45
-
-Sun  		7.8  	12.3	15.9	18.0	13.9
+		250	100	60	45
+ISO 100/21°
+Sun  		7.8  	12.3	15.9	18.3	13.9
 Cloud 		5.7  	9.0	11.6	13.3	13.0
 Cast  		2.8  	4.3	5.6	6.5	10.9
 Dawn 		1.0 	1.6	2.0	2.3	7.9
