@@ -4,7 +4,7 @@
 ! // by Dietmar G. Schrausser (c) 2025
 ! //
 _name$="LV"
-_ver$="3.2.7"
+_ver$="3.5.0"
 CONSOLE.TITLE _name$
 INCLUDE strg.inc
 INCLUDE lv.inc
@@ -14,7 +14,7 @@ insw=1                         % // input switch  //
 tv=10
 av=18
 av1=18
-iso=100:iso$="100"  
+iso=18:iso$="100"  
 !
 m1:
 IF sw=1:r=255:g=255:b=255:ENDIF
@@ -66,21 +66,21 @@ DO
  !                              % // iso shift    //
  GR.BOUNDED.TOUCH swisop,sx*2/3,sy*2/3,sx,sy
  IF swisop=1
-  IF iso<51200:iso=2*iso
+  IF iso<39:iso=iso+1
    av=av+1                      % //
    GOSUB sub1
   ENDIF
  ENDIF
  GR.BOUNDED.TOUCH swisom,0,sy*2/3,sx/3,sy
  IF swisom=1
-  IF iso>3:iso=iso/2 
+  IF iso>1:iso=iso-1
    av=av-1
    GOSUB sub1
   ENDIF
  ENDIF
  !
  !                              % // text TV      //
- iso$=INT$(iso)
+ iso$=iso$[iso]
  IF sw>-1 
   IF tv=rtv THEN GR.COLOR 255,255/2,0,0,1
  ENDIF
@@ -155,6 +155,7 @@ END
 values:
 ARRAY.LOAD tv$[], "+", "32000","16000","8000","4000","2000","1000","500","250","125","60","30","15","8","4","2","1"+i$,"2"+i$,"4"+i$,"8"+i$,"15"+i$,"30"+i$,"1'","2'","4'","8'","15'","30'","1h","2h","-"
 ARRAY.LOAD av$[], "-","0.5","0.6","0.7","0.8","1.0","1.2","1.4","1.7","2.0","2.4","2.8","3.4","4.0","4.8","5.6","6.7","8.0","9.5","11","13.5","16","19","22","27","32","38","44","54","64","76","88","108","128","152","+"
+ARRAY.LOAD iso$[], "-","0.38","0.6","0.75","1.25","1.5","2.5","3","5","6","10","12.5","20","25","40","50","80","100","160","200","320","400","640","800","1200","1600","2400","3200","4800","6400","9600","12800","19200","25600","38400","51200","76800","102400","+"
 RETURN
 !
 col:
@@ -195,7 +196,7 @@ ENDIF
 IF dlg=8:GOSUB fin:END:ENDIF
 rtv=tv
 rav=av
-iso=100
+iso=18
 RETURN
 !
 calc:
@@ -251,7 +252,7 @@ tv1$=STR$(ROUND(1/tv01,5))
 RETURN
 !
 Aviso:                           % // calc Av iso //
-av0$=STR$(VAL(av0$)*EXP((0.25*LOG(iso01/VAL(iso0$)))) ) 
+av0$=STR$(VAL(av0$)*EXP((0.5*LOG(iso01/VAL(iso0$)))) ) 
 av0$=STR$(ROUND(VAL(av0$),2)) 
 iso0$=STR$(iso01)
 din$=STR$(ROUND(10*LOG10(iso01)+1,1))
@@ -265,7 +266,6 @@ fin:
 PRINT_name$+" Lightvalues "+_ver$
 PRINT"Copyright "+_cr$+" 2025 by Dietmar Gerald Schrausser"
 PRINT"https://github.com/Schrausser/LV"
-!PRINT "DOI:10.5281/zenodo."
 RETURN
 ! // END //
 ! // 
