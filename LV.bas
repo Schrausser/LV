@@ -135,7 +135,7 @@ DO
  IF dlg<>6
   GR.TEXT.DRAW tx,sx,txz0,lv$[dlg]
  ELSE
-  IF tv<31 & av1<35 & tv>1 & av>1
+  IF tv<31 & av1<35 & tv>1 & av>1 & iso>1 & iso<39
    GOSUB v0: GOSUB EV
   ENDIF
   GR.TEXT.DRAW tx,sx,txz0,ev$+" Ev"
