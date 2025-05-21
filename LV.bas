@@ -184,11 +184,11 @@ RETURN
 inpt:
 ARRAY.LOAD lv$[],m1$+" Sun",m2$+" Cloud",m3$+" Cast",m4$+" Dawn",m5$+"  Indoors",m6$+" EV",m7$+" Calculate",_ex$+" Exit"
 DIALOG.SELECT dlg, lv$[],_name$+" "+_ver$+" - ISO@100 …"
-IF dlg=5:tv=13:av=12:ENDIF
-IF dlg=4:tv=13:av=14:ENDIF
-IF dlg=3:tv=11:av=16:ENDIF
-IF dlg=2:tv=10:av=18:ENDIF
-IF dlg=1:tv=10:av=20:ENDIF
+IF dlg=5:tv=13:av=12:iso=18:ENDIF
+IF dlg=4:tv=13:av=14:iso=18:ENDIF
+IF dlg=3:tv=11:av=16:iso=18:ENDIF
+IF dlg=2:tv=10:av=18:iso=18:ENDIF
+IF dlg=1:tv=10:av=20:iso=18:ENDIF
 IF dlg=7
  GOSUB v0
  GOSUB calc
@@ -196,7 +196,6 @@ ENDIF
 IF dlg=8:GOSUB fin:END:ENDIF
 rtv=tv
 rav=av
-iso=18
 RETURN
 !
 calc:
