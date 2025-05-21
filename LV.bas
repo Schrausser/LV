@@ -4,7 +4,7 @@
 ! // by Dietmar G. Schrausser (c) 2025
 ! //
 _name$="LV"
-_ver$="3.5.0"
+_ver$="3.5.2"
 CONSOLE.TITLE _name$
 INCLUDE strg.inc
 INCLUDE lv.inc
