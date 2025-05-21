@@ -2,9 +2,9 @@
 
 Android exposure calculator Lightvalues `LV` for calculating *aperture values*  ​ $Av$ corresponding to *light values*[^1] by *shifting* the time value $Tv=s^{-1}$ or arithmetic $ISO$ speed value $S$ in steps $k$ according to the common classification,  where
 
-$$Tv_n=Tv_{n-k}\cdot 2^k,S_n=S_{n+k}\cdot 2^k,\{(1)}$$
+$$Tv_n=Tv_{n-k}\cdot 2^k,S_n=S_{n+k}\cdot \sqrt{2}^k,\{(1)}$$
 
-$$Tv_n=\frac{Tv_{n+k}}{2^k},S_n=\frac{S_{n-k}}{2^k}\{(2)}$$
+$$Tv_n=\frac{Tv_{n+k}}{2^k},S_n=\frac{S_{n-k}}{\sqrt{2}^k}\{(2)}$$
 
 and
 
