@@ -190,8 +190,10 @@ IF dlg=3:tv=11:av=16:iso=18:ENDIF
 IF dlg=2:tv=10:av=18:iso=18:ENDIF
 IF dlg=1:tv=10:av=20:iso=18:ENDIF
 IF dlg=7
- GOSUB v0
- GOSUB calc
+ IF tv<31 & av1<35 & tv>1 & av>1 & iso>1 & iso<39
+  GOSUB v0
+  GOSUB calc
+ ENDIF
 ENDIF
 IF dlg=8:GOSUB fin:END:ENDIF
 rtv=tv
