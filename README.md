@@ -39,7 +39,7 @@ $$Ev=\log2\frac{{Av}^2}{Tv^{-1}}=\frac{\log(Tv\cdot Av^2)}{\log(2)},Tv=\frac{2^{
 
 For logarithmic functions in general see e.g. Marsden and Weinstein ([1985](https://doi.org/10.1007/978-1-4612-5024-1_9)), Howie ([2001](https://doi.org/10.1007/978-1-4471-0341-7_6)) and Sobot ([2021](https://doi.org/10.1007/978-3-030-79545-0_4)).
 
-Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations can be achieved by *shifting*  $Av$ itself. 
+Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations and *exposure values* $Ev$ can be achieved by *shifting*  $Av$ itself. 
 
 Table 1. Exposure presets for $Tv$, $Av$ and $Ev$ (10) at *ISO 100/21°* by condition *cnd*.
 ~~~
