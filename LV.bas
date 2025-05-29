@@ -182,7 +182,7 @@ PAUSE 100:GR.CLS
 RETURN
 !
 inpt:
-ARRAY.LOAD lv$[],m1$+" Sun",m2$+" Cloud",m3$+" Cast",m4$+" Dawn",m5$+"  Indoors",m6$+" EV",m7$+" Calculate",_ex$+" Exit"
+ARRAY.LOAD lv$[],m1$+" Sun",m2$+" Cloud",m3$+" Overcast",m4$+" Dawn",m5$+"  Indoors",m6$+" EV",m7$+" Calculate",_ex$+" Exit"
 DIALOG.SELECT dlg, lv$[],_name$+" "+_ver$+" - ISO@100 …"
 IF dlg=5:tv=13:av=12:iso=18:ENDIF
 IF dlg=4:tv=13:av=14:iso=18:ENDIF
