@@ -47,12 +47,12 @@ cnd    	 	Tv	Av	Ev
 
 Sun  		125  	11	14
 Cloud 		125  	8	13
-Cast  		60  	5.6	11
+Overcast  	60  	5.6	11
 Dawn 		15 	4	8
 Indoors 	15 	2.8	7
 ~~~
 
-In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (s. Tab. 2). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only one shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed.
+In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed   (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only one shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Tab. 2).
 
 Table 2. $Av$ for $Tv$ (5) (6) at *ISO 100/21°* and *ISO 400/27°* with $Ev$ (10) by condition *cnd*.
 ~~~
@@ -61,14 +61,14 @@ cnd		Tv				Ev
 ISO 100/21°
 Sun  		7.8  	12.3	15.9	18.3	13.9
 Cloud 		5.7  	9.0	11.6	13.3	13.0
-Cast  		2.8  	4.3	5.6	6.5	10.9
+Overcast  	2.8  	4.3	5.6	6.5	10.9
 Dawn 		1.0 	1.6	2.0	2.3	7.9
 Indoors 	0.7 	1.1	1.4	1.6	6.9
 
 ISO 400/27°	
 Sun		15.6	24.6	32.0	36.7	15.9
 Cloud		11.4	18.0	23.2	26.6	15.0
-Cast		5.6	8.6	11.2	13.0	12.9
+Overcast		5.6	8.6	11.2	13.0	12.9
 Dawn		2.0	3.1	4.0	4.6	9.9
 Indoors		1.4	2.2	2.8	3.2	8.9
 ~~~
@@ -108,6 +108,8 @@ Marsden, J., & Weinstein, A. (1985). Exponentials and Logarithms. In *Calculus i
 Pavlidis, G. (2022). *Foundations of Photography: A Treatise on the Technical Aspects of Digital Photography*. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-031-06252-0](https://doi.org/10.1007/978-3-031-06252-0)
 
 Roberts, G. (1995). Exposure. In *Mastering Photography*, 76–87. London: Macmillan Education UK. [https://doi.org/10.1007/978-1-349-13506-6_5](https://doi.org/10.1007/978-1-349-13506-6_5)
+
+Schrausser, D. G. (2025). Schrausser/HP_Prime_MATH: --version--. *Zenodo. --Month-- 2025*. [https://doi.org/10.5281/zenodo.14721085](https://doi.org/10.5281/zenodo.14721085)
 
 Simon, G., Vakulya, G., & Rátosi, M. (2022). The Way to Modern Shutter Speed Measurement Methods: A Historical Overview. *Sensors 22* (5): 1871. [https://doi.org/10.3390/s22051871](https://doi.org/10.3390/s22051871)
 
