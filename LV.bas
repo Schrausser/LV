@@ -4,7 +4,7 @@
 ! // by Dietmar G. Schrausser (c) 2025
 ! //
 _name$="LV"
-_ver$="3.8.0"
+_ver$="3.8.2"
 CONSOLE.TITLE _name$
 INCLUDE strg.inc
 INCLUDE lv.inc
@@ -204,11 +204,18 @@ rav=av
 RETURN
 !
 calc:
-GOSUB EV
-ARRAY.LOAD calc$[],"Tv= 1/"+tv0$+" ("+tv1$+")s","Av: f "+av0$,"ISO= "+iso0$+"/"+din$+"°","Ev: "+ev$,e_v$+" lx","Ok"
+GOSUB EV:GOSUB E_V
+ARRAY.LOAD calc$[],"Tv= 1/"+tv0$+" ("+tv1$+")s","Av= "+av0$,"ISO= "+iso0$+"/"+din$+"°","Ev: "+ev$,e_v$+" lx","Ok"
 DIALOG.SELECT dlg2, calc$[],m7$+" Calculate..."
 IF dlg2=1
  INPUT "Tv=...",tv01,VAL(tv0$)
+ GOSUB AvTv
+ GOTO calc
+ENDIF
+IF dlg2=2
+ INPUT "Av=...",av01,VAL(av0$)
+ av0$=STR$(av01)
+ tv01=VAL(tv0$)
  GOSUB AvTv
  GOTO calc
 ENDIF
@@ -276,4 +283,4 @@ PRINT"Copyright "+_cr$+" 2025 by Dietmar Gerald Schrausser"
 PRINT"https://github.com/Schrausser/LV"
 RETURN
 ! // END //
-! //
+! // 
