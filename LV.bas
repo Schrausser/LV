@@ -205,7 +205,7 @@ RETURN
 !
 calc:
 GOSUB EV
-ARRAY.LOAD calc$[],"Tv= 1/"+tv0$+" ("+tv1$+")s","Av: f "+av0$,"ISO= "+iso0$+"/"+din$+"°","Ev: "+ev$,"Ok"
+ARRAY.LOAD calc$[],"Tv= 1/"+tv0$+" ("+tv1$+")s","Av: f "+av0$,"ISO= "+iso0$+"/"+din$+"°","Ev: "+ev$,e_v$+" lx","Ok"
 DIALOG.SELECT dlg2, calc$[],m7$+" Calculate..."
 IF dlg2=1
  INPUT "Tv=...",tv01,VAL(tv0$)
@@ -217,7 +217,7 @@ IF dlg2=3
  GOSUB Aviso
  GOTO calc
 ENDIF
-IF dlg2=5 THEN GOTO inpt
+IF dlg2=6 THEN GOTO inpt
 RETURN
 !
 v0:                              % // conversions //
