@@ -4,7 +4,7 @@
 ! // by Dietmar G. Schrausser (c) 2025
 ! //
 _name$="LV"
-_ver$="3.5.2"
+_ver$="3.8.0"
 CONSOLE.TITLE _name$
 INCLUDE strg.inc
 INCLUDE lv.inc
@@ -133,12 +133,15 @@ DO
  GR.TEXT.SIZE txz0
  GR.TEXT.ALIGN 3
  IF dlg<>6
-  GR.TEXT.DRAW tx,sx,txz0,lv$[dlg]
+  GR.TEXT.DRAW tx,sx,sy/20,lv$[dlg]
  ELSE
   IF tv<31 & av1<35 & tv>1 & av>1 & iso>1 & iso<39
    GOSUB v0: GOSUB EV
   ENDIF
-  GR.TEXT.DRAW tx,sx,txz0,ev$+" Ev"
+  GR.TEXT.DRAW tx,sx,sy/20,ev$+" Ev"
+  GOSUB E_V
+  GR.TEXT.SIZE sx/15
+  GR.TEXT.DRAW tx,sx,sy-sy/100,e_v$+" lx"
  ENDIF
  GOSUB ln
  GR.RENDER
@@ -263,10 +266,14 @@ EV:                                  % // calc Ev //
 ev$=STR$(ROUND(1/LOG(2)*LOG((VAL(av0$))^2/(VAL(tv0$))^-1),2)) 
 RETURN
 !
+E_V:                           % // calc E_V //
+e_v$=STR$(ROUND(250*(2^VAL(ev$)/VAL(iso0$)),2))
+RETURN
+!
 fin:
 PRINT_name$+" Lightvalues "+_ver$
 PRINT"Copyright "+_cr$+" 2025 by Dietmar Gerald Schrausser"
 PRINT"https://github.com/Schrausser/LV"
 RETURN
 ! // END //
-! // 
+! //
