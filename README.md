@@ -35,7 +35,11 @@ $$S=10^{\frac{S°-1}{10}}.\{(9)}$$
 
 The *exposure value* $Ev$  is calculated from  $Tv$ and $Av$, where
 
-$$Ev=\log2\frac{{Av}^2}{Tv^{-1}}=\frac{\log(Tv\cdot Av^2)}{\log(2)},Tv=\frac{2^{Ev}}{Av^2},Av=\frac{\sqrt{2^{Ev}\cdot Tv}}{Tv}\{(10)}$$
+$$Ev=\log2\frac{{Av}^2}{Tv^{-1}}=\frac{\log(Tv\cdot Av^2)}{\log(2)},Tv=\frac{2^{Ev}}{Av^2},Av=\frac{\sqrt{2^{Ev}\cdot Tv}}{Tv}.\{(10)}$$
+
+The total luminous flux or *illuminance* $E_V$ in *lux* $lx$, where $lx=\frac{lm}{m^2}$ results from $Ev$ and $S$ by
+
+$$E_V=250\cdot \frac{2^{Ev}}{S}.\{(11)}$$
 
 For logarithmic functions in general see e.g. Marsden and Weinstein ([1985](https://doi.org/10.1007/978-1-4612-5024-1_9)), Howie ([2001](https://doi.org/10.1007/978-1-4471-0341-7_6)) and Sobot ([2021](https://doi.org/10.1007/978-3-030-79545-0_4)).
 
