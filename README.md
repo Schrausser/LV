@@ -56,7 +56,7 @@ Dawn 		15 	4	8
 Indoors 	15 	2.8	7
 ~~~
 
-In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only one shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Tab. 2).
+In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only *a single* shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Tab. 2).
 
 Table 2. $Av$ for $Tv$ (5) (6) at *ISO 100/21°* and *ISO 400/27°* with $Ev$ (10) by condition *cnd*.
 ~~~
