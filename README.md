@@ -113,7 +113,7 @@ Pavlidis, G. (2022). *Foundations of Photography: A Treatise on the Technical As
 
 Roberts, G. (1995). Exposure. In *Mastering Photography*, 76–87. London: Macmillan Education UK. [https://doi.org/10.1007/978-1-349-13506-6_5](https://doi.org/10.1007/978-1-349-13506-6_5)
 
-Schrausser, D. G. (2025). Schrausser/HP_Prime_MATH: --version--. *Zenodo. --Month-- 2025*. [https://doi.org/10.5281/zenodo.14721085](https://doi.org/10.5281/zenodo.14721085)
+Schrausser, D. G. (2025). Schrausser/HP_Prime_MATH: 3.0. *Zenodo. June 2025*. [https://doi.org/10.5281/zenodo.14721085](https://doi.org/10.5281/zenodo.14721085)
 
 Simon, G., Vakulya, G., & Rátosi, M. (2022). The Way to Modern Shutter Speed Measurement Methods: A Historical Overview. *Sensors 22* (5): 1871. [https://doi.org/10.3390/s22051871](https://doi.org/10.3390/s22051871)
 
