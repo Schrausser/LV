@@ -9,33 +9,87 @@ LV/README
 </title>
 
 </head> 
-<body style="font-family:calibri;font-size:85%;background-color:#7986cb;color:#fafafa">
+<body style="font-family:calibri;font-size:85%;background-color:#efebe9;color:#283593">
 
 <style></style>
 <h1 id="lv">LV</h1>
-<p>Android exposure calculator Lightvalues <code>LV</code> for calculating <em>aperture values</em>  ​ $Av$ corresponding to <em>light values</em><a href="#1" name="1-return"><sup>1</sup></a> by <em>shifting</em> the time value $Tv=s^{-1}$ or arithmetic $ISO$ speed value $S$ in steps $k$ according to the common classification,  where</p>
+<p>Android exposure calculator Lightvalues <code>LV</code> for calculating <em>aperture values</em> <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> corresponding to <em>light values</em><a href="#1" name="1-return"><sup>1</sup></a> by <em>shifting</em> the time value <math display="inline"><mi>T</mi><mi>v</mi><mo>=</mo><msup><mi>s</mi><mrow data-mjx-texclass="ORD"><mo>-</mo><mn>1</mn></mrow></msup>
+</math> or arithmetic <math display="inline">
+<mi>I</mi><mi>S</mi><mi>O</mi>
+</math> speed value <math display="inline">
+<mi>S</mi>
+</math> in steps <math display="inline">
+<mi>k</mi>
+</math> according to the common classification,  where</p>
 <p>$$Tv_{n-k}=Tv_n\cdot 2^k,S_{n+k}=S_n\cdot \sqrt{2}^k,{(1)}$$</p>
 <p>$$Tv_{n+k}=\frac{Tv_n}{2^k},S_{n-k}=\frac{S_n}{\sqrt{2}^k}{(2)}$$</p>
 <p>and</p>
 <p>$$Av_{(Tv_n)}=Av_{(Tv_{n-k})}\cdot\sqrt[]2^k=\frac{Av_{(Tv_{n+k})}}{\sqrt[]2^k},{(3)}$$</p>
 <p>$$Av_{(S_n)}=Av_{(S_{n+k})}\cdot\sqrt[]2^k=\frac{Av_{(S_{n-k})}}{\sqrt[]2^k}.{(4)}$$</p>
-<p>Therefore $Av$ is calculated from $Tv$ or $S$ by</p>
+<p>Therefore <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> is calculated from <math display="inline">
+<mi>T</mi><mi>v</mi>
+</math> or <math display="inline">
+<mi>S</mi>
+</math> by</p>
 <p>$$Av_{Tv}=Av_{Tv_0}\cdot a_{Tv},Av_S=Av_{S_0}\cdot a_{S}{(5)}$$</p>
 <p>with</p>
 <p>$$a_{Tv}=2^{\frac{1}{2}\cdot\log2\frac{Tv_0}{Tv}}=e^{\frac{1}{2}\cdot\log\frac{Tv_0}{Tv}},{(6)}$$</p>
 <p>$$a_S=2^{\frac{1}{2}\cdot\log2\frac{S}{S_0}}=e^{\frac{1}{2}\cdot\log\frac{S}{S_0}}.{(7)}$$</p>
-<p>The shutter speed is set in the range between $Tv=32000$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between <em>ISO 0.4</em> and <em>ISO 102400</em>.
+<p>The shutter speed is set in the range between <math display="inline"><mi>T</mi><mi>v</mi><mo>=</mo><mn>32000</mn>
+</math> and 2 hours <math display="inline"><mi>T</mi><mi>v</mi><mo>=</mo><mn>0.00013</mn><mover><mn>8</mn><mo accent="true">&minus;</mo></mover>
+</math>,  aperture ranges from <math display="inline"><mi>A</mi><mi>v</mi><mo>=</mo><mn>0.5</mn>
+</math> to <math display="inline"><mi>A</mi><mi>v</mi><mo>=</mo><mn>152</mn>
+</math> and speed <math display="inline">
+<mi>S</mi>
+</math> is set to range between <em>ISO 0.4</em> and <em>ISO 102400</em>.
 On aperture, shutter speed and exposure see e.g. Roberts (<a href="https://doi.org/10.1007/978-1-349-13506-6_5">1995</a>), Beaver (<a href="https://doi.org/10.1088/2053-2571/aae504ch3">2018</a>), Bernacki (<a href="https://doi.org/10.1007/s11042-019-08318-1">2020</a>) and Simon et al. (<a href="https://doi.org/10.3390/s22051871">2022</a>).</p>
-<p>Logarithmic speed $S°$ (s. Allbright,  <a href="https://doi.org/10.1080/00223638.1991.11737126">1991</a>) is transformed from arithmetic speed $S$ by</p>
+<p>Logarithmic speed <math display="inline">
+<mi>S</mi><mi>°</mi>
+</math> (s. Allbright,  <a href="https://doi.org/10.1080/00223638.1991.11737126">1991</a>) is transformed from arithmetic speed <math display="inline">
+<mi>S</mi>
+</math> by</p>
 <p>$$S°=10\cdot\log10(S)+1=\frac{10\cdot\log{(S)}}{\log{(10)}}+1,{(8)}$$</p>
 <p>$$S=10^{\frac{S°-1}{10}}.{(9)}$$</p>
-<p>The <em>exposure value</em> $Ev$  is calculated from  $Tv$ and $Av$, where</p>
+<p>The <em>exposure value</em> <math display="inline">
+<mi>E</mi><mi>v</mi>
+</math>  is calculated from  <math display="inline">
+<mi>T</mi><mi>v</mi>
+</math> and <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math>, where</p>
 <p>$$Ev=\log2\frac{{Av}^2}{Tv^{-1}}=\frac{\log(Tv\cdot Av^2)}{\log(2)},Tv=\frac{2^{Ev}}{Av^2},Av=\frac{\sqrt{2^{Ev}\cdot Tv}}{Tv}.{(10)}$$</p>
-<p>The total luminous flux or <em>illuminance</em> $E_V$ in <em>lux</em> $lx$, where $lx=\frac{lm}{m^2}$ results from $Ev$ and $S$ by</p>
+<p>The total luminous flux or <em>illuminance</em> <math display="inline">
+<msub><mi>E</mi><mi>V</mi></msub>
+</math> in <em>lux</em> <math display="inline">
+<mi>l</mi><mi>x</mi>
+</math>, where <math display="inline"><mi>l</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi>l</mi><mi>m</mi></mrow><msup><mi>m</mi><mn>2</mn></msup></mfrac>
+</math> results from <math display="inline">
+<mi>E</mi><mi>v</mi>
+</math> and <math display="inline">
+<mi>S</mi>
+</math> by</p>
 <p>$$E_V=250\cdot \frac{2^{Ev}}{S}.{(11)}$$</p>
 <p>For logarithmic functions in general see e.g. Marsden and Weinstein (<a href="https://doi.org/10.1007/978-1-4612-5024-1_9">1985</a>), Howie (<a href="https://doi.org/10.1007/978-1-4471-0341-7_6">2001</a>) and Sobot (<a href="https://doi.org/10.1007/978-3-030-79545-0_4">2021</a>).</p>
-<p>Presets for time and aperture combinations at <em>ISO 100/21°</em> (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom <em>time-aperture-ISO</em> combinations for <em>exposure values</em> $Ev$ (10) or <em>illuminance</em> $E_V$ (11) can be achieved by <em>shifting</em>  $Av$ itself.</p>
-<p>Table 1. Exposure presets for $Tv$, $Av$ and $Ev$ (10) at <em>ISO 100/21°</em> by condition <em>cnd</em>.</p>
+<p>Presets for time and aperture combinations at <em>ISO 100/21°</em> (8) are given (s. Tab. 1), with aperture values <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> ​​are rounded to one decimal place. Custom <em>time-aperture-ISO</em> combinations for <em>exposure values</em> <math display="inline">
+<mi>E</mi><mi>v</mi>
+</math> (10) or <em>illuminance</em> <math display="inline">
+<msub><mi>E</mi><mi>V</mi></msub>
+</math> (11) can be achieved by <em>shifting</em>  <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> itself.</p>
+<p>Table 1. Exposure presets for <math display="inline">
+<mi>T</mi><mi>v</mi>
+</math>, <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> and <math display="inline">
+<mi>E</mi><mi>v</mi>
+</math> (10) at <em>ISO 100/21°</em> by condition <em>cnd</em>.</p>
 <pre><code>cnd    	 	Tv	Av	Ev
 
 Sun  		125  	11	14
@@ -44,8 +98,20 @@ Overcast  	60  	5.6	11
 Dawn 		15 	4	8
 Indoors 	15 	2.8	7
 </code></pre>
-<p>In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, <a href="https://doi.org/10.5281/zenodo.14721085">2025</a>). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only <em>a single</em> shutter speed is available, as in the case of the so-called mechanical <em>emergency</em> shutter speed (s. Tab. 2).</p>
-<p>Table 2. $Av$ for $Tv$ (5) (6) at <em>ISO 100/21°</em> and <em>ISO 400/27°</em> with $Ev$ (10) by condition <em>cnd</em>.</p>
+<p>In addition, direct calculations (5) of aperture <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> from shutter speed <math display="inline">
+<mi>T</mi><mi>v</mi>
+</math> (6) and <math display="inline">
+<mi>S</mi>
+</math> (7) can be performed (c.f. Schrausser, <a href="https://doi.org/10.5281/zenodo.14721085">2025</a>). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only <em>a single</em> shutter speed is available, as in the case of the so-called mechanical <em>emergency</em> shutter speed (s. Tab. 2).</p>
+<p>Table 2. <math display="inline">
+<mi>A</mi><mi>v</mi>
+</math> for <math display="inline">
+<mi>T</mi><mi>v</mi>
+</math> (5) (6) at <em>ISO 100/21°</em> and <em>ISO 400/27°</em> with <math display="inline">
+<mi>E</mi><mi>v</mi>
+</math> (10) by condition <em>cnd</em>.</p>
 <pre><code>cnd		Tv				Ev
 		250	100	60	45
 ISO 100/21°
