@@ -1,0 +1,97 @@
+<html> 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Dietmar Gerald Schrausser">
+
+<title>
+LV/resolution
+</title>
+
+</head> 
+<body style="font-family:calibri;font-size:85%;background-color:#efebe9;color:#37474f">
+
+<style></style>
+<h1 id="resolutionmd">resolution.md</h1>
+<h3 id="resolution-res-mp">Resolution <math display="inline">
+<mi>r</mi><mi>e</mi><mi>s</mi>
+</math> (MP)</h3>
+<p>$$res=\frac{res_0}{4^{mag-1}}{(1)}$$</p>
+<p>hence</p>
+<p>$$res_0=res\cdot4^{mag-1}{(2)}$$</p>
+<p>and</p>
+<p>$$mag=\log_4(4)+\log_4{(res_0)}-\log_4{(res)}{(3)}$$</p>
+<p>$$=\frac{\log{(4)}+\log{(res_0)}-\log{(res)}}{\log{(4)}}{(4)}$$</p>
+<p>where</p>
+<p><math display="inline">
+<mi>m</mi><mi>a</mi><mi>g</mi>
+</math> = magnification factor<br />
+<math display="inline"><mi>r</mi><mi>e</mi><msub><mi>s</mi><mn>0</mn></msub></math> = initial resolution (MP)<br />
+<math display="inline">
+<mi>r</mi><mi>e</mi><mi>s</mi>
+</math> = resolution in MP</p>
+<h3 id="focal-length-f-35mm">Focal length <math display="inline">
+<mi>f</mi>
+</math> (35mm)</h3>
+<p>$$f=f_0\cdot2^{mag-1}{(5)}$$</p>
+<p>hence</p>
+<p>$$f_0=f\cdot2^{1-mag}{(6)}$$</p>
+<p>and</p>
+<p>$$mag=\log_2{(2)}-\log_2{(f_0)}+\log_2{(f)}{(7)}$$</p>
+<p>$$=\frac{\log{(2)}-\log{(f_0)}+\log{(f)}}{\log{(2)}}{(8)}$$</p>
+<p>where</p>
+<p><math display="inline">
+<mi>m</mi><mi>a</mi><mi>g</mi>
+</math> = magnification factor<br />
+<math display="inline"><msub><mi>f</mi><mn>0</mn></msub></math> = initial focal length (35mm)<br />
+<math display="inline">
+<mi>f</mi>
+</math> = focal length (35mm)</p>
+<h3 id="magnification-x">Magnification <math display="inline">
+<mi>x</mi>
+</math></h3>
+<p>$$x=\log_2(2)+\log_2(mag){(9)}$$</p>
+<p>$$=\frac{\log(2)+\log(mag)}{\log(2)}{(10)}$$</p>
+<br>
+<p>therefore</p>
+<p>$$res=\frac{res_0\cdot f_0^2}{f^2},{(11)}$$</p>
+<p>$$res_0=\frac{f^2\cdot res}{f_0^2}{(12)}$$</p>
+<p>and</p>
+<p>$$f=\frac{\sqrt{res_0\cdot res}\cdot|res|\cdot |f_0|}{res^2},{(13)}$$</p>
+<p>$$f_0=\frac{\sqrt{res_0\cdot res}\cdot|res_0|\cdot |f|}{res_0^2}{(14)}$$</p>
+<p>where</p>
+<p><math display="inline"><msub><mi>f</mi><mn>0</mn></msub></math> = initial focal length (35mm)<br />
+<math display="inline"><mi>r</mi><mi>e</mi><msub><mi>s</mi><mn>0</mn></msub></math> = initial resolution (MP)<br />
+<math display="inline">
+<mi>f</mi>
+</math> = focal length after magnification<br />
+<math display="inline">
+<mi>r</mi><mi>e</mi><mi>s</mi>
+</math> = resolution after magnification</p>
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	tex2jax: {inlineMath: [['\\[','\\]'], ['\\(','\\)']]}
+	});
+</script>
+
+<hr WIDTH="75%">
+<blockquote ALIGN="CENTER">
+<center>
+<a href="https://github.com/Schrausser/LV">
+LV
+</a>
+<br><font color="#999999"><font size=-1>
+<a
+href="https://orcid.org/0000-0002-4924-8280">
+Dietmar Gerald Schrausser
+</a>
+<p>15.07.2025</p>
+</font></font>
+</center>
+</blockquote>
+
+</body>
+</html>
