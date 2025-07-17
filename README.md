@@ -43,7 +43,7 @@ $$E_V=250\cdot \frac{2^{Ev}}{S}.\{(11)}$$
 
 For logarithmic functions in general see e.g. Marsden and Weinstein ([1985](https://doi.org/10.1007/978-1-4612-5024-1_9)), Howie ([2001](https://doi.org/10.1007/978-1-4471-0341-7_6)) and Sobot ([2021](https://doi.org/10.1007/978-3-030-79545-0_4)).
 
-Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations for *exposure values* $Ev$ (10) or *illuminance* $E_V$ (11) can be achieved by *shifting*  $Av$ itself. 
+Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations for *exposure values* $Ev$ (10) or *illuminance* $E_V$ (11) can be achieved by *shifting*  $Av$ itself (c.f. Fig. 1). 
 
 Figure 1. Screenshots from `LV` application.
 
@@ -61,7 +61,7 @@ Dawn 		15 	4	8
 Indoors 	15 	2.8	7
 ~~~
 
-In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only *a single* shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Tab. 2).
+In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only *a single* shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Fig. 2, Tab. 2).
 
 Figure 2. Screenshots from `LV` application.
 
