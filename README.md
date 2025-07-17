@@ -45,7 +45,7 @@ For logarithmic functions in general see e.g. Marsden and Weinstein ([1985](http
 
 Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations for *exposure values* $Ev$ (10) or *illuminance* $E_V$ (11) can be achieved by *shifting*  $Av$ itself. 
 
-Figure 1. Screenshot from `LV` application.
+Figure 1. Screenshots from `LV` application.
 
 ![figure.\label{pic1}](pic1.jpg)
 ![figure.\label{pic2}](pic2.jpg)
@@ -62,6 +62,11 @@ Indoors 	15 	2.8	7
 ~~~
 
 In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only *a single* shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Tab. 2).
+
+Figure 2. Screenshots from `LV` application.
+
+![figure.\label{pic3}](pic3.jpg)
+![figure.\label{pic4}](pic4.jpg)
 
 Table 2. $Av$ for $Tv$ (5) (6) at *ISO 100/21°* and *ISO 400/27°* with $Ev$ (10) by condition *cnd*.
 ~~~
