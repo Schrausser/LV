@@ -45,6 +45,11 @@ For logarithmic functions in general see e.g. Marsden and Weinstein ([1985](http
 
 Presets for time and aperture combinations at *ISO 100/21°* (8) are given (s. Tab. 1), with aperture values $Av$ ​​are rounded to one decimal place. Custom *time-aperture-ISO* combinations for *exposure values* $Ev$ (10) or *illuminance* $E_V$ (11) can be achieved by *shifting*  $Av$ itself. 
 
+Figure 1. Screenshot from `LV` application.
+
+![figure.\label{pic1}](pic1.jpg)
+![figure.\label{pic2}](pic2.jpg)
+
 Table 1. Exposure presets for $Tv$, $Av$ and $Ev$ (10) at *ISO 100/21°* by condition *cnd*.
 ~~~
 cnd    	 	Tv	Av	Ev
