@@ -281,6 +281,7 @@ fin:
 PRINT_name$+" Lightvalues "+_ver$
 PRINT"Copyright "+_cr$+" 2025 by Dietmar Gerald Schrausser"
 PRINT"https://github.com/Schrausser/LV"
+PRINT "DOI:10.5281/zenodo.16502602"
 RETURN
 ! // END //
 ! // 
