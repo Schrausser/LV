@@ -23,7 +23,7 @@ $$a_{Tv}=2^{\frac{1}{2}\cdot\log2\frac{Tv_0}{Tv}}=e^{\frac{1}{2}\cdot\log\frac{T
 
 $$a_S=2^{\frac{1}{2}\cdot\log2\frac{S}{S_0}}=e^{\frac{1}{2}\cdot\log\frac{S}{S_0}}.\{(7)}$$
 
-The shutter speed is set in the range between $Tv=32000$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between *ISO 0.4* and *ISO 102400*.
+The shutter speed is set in the range between $Tv=32000$ and 2 hours, $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between *ISO 0.4* and *ISO 102400*.
 On aperture, shutter speed and exposure see e.g. Roberts ([1995](https://doi.org/10.1007/978-1-349-13506-6_5)), Beaver ([2018](https://doi.org/10.1088/2053-2571/aae504ch3)), Bernacki ([2020](https://doi.org/10.1007/s11042-019-08318-1)) and Simon et al. ([2022](https://doi.org/10.3390/s22051871)).
 
 Logarithmic speed $S°$ (s. Allbright,  [1991](https://doi.org/10.1080/00223638.1991.11737126)) is transformed from arithmetic speed $S$ by
@@ -31,7 +31,6 @@ Logarithmic speed $S°$ (s. Allbright,  [1991](https://doi.org/10.1080/00223638.
 $$S°=10\cdot\log10(S)+1=\frac{10\cdot\log{(S)}}{\log{(10)}}+1,\{(8)}$$
 
 $$S=10^{\frac{S°-1}{10}}.\{(9)}$$
-
 
 The *exposure value* $Ev$  is calculated from  $Tv$ and $Av$, where
 
