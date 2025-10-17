@@ -23,7 +23,7 @@ $$a_{Tv}=2^{\frac{1}{2}\cdot\log2\frac{Tv_0}{Tv}}=e^{\frac{1}{2}\cdot\log\frac{T
 
 $$a_S=2^{\frac{1}{2}\cdot\log2\frac{S}{S_0}}=e^{\frac{1}{2}\cdot\log\frac{S}{S_0}}.\{(7)}$$
 
-The shutter speed is set in the range between $Tv=32000$ and 2 hours, $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between *ISO 0.4* and *ISO 102400*.
+The shutter speed is set in the range between $Tv=32000$ and 2 hours $Tv=0.00013\overline 8$,  aperture ranges from $Av=0.5$ to $Av=152$ and speed $S$ is set to range between *ISO 0.4* and *ISO 102400*.
 On aperture, shutter speed and exposure see e.g. Roberts ([1995](https://doi.org/10.1007/978-1-349-13506-6_5)), Beaver ([2018](https://doi.org/10.1088/2053-2571/aae504ch3)), Bernacki ([2020](https://doi.org/10.1007/s11042-019-08318-1)) and Simon et al. ([2022](https://doi.org/10.3390/s22051871)).
 
 Logarithmic speed $S°$ (s. Allbright,  [1991](https://doi.org/10.1080/00223638.1991.11737126)) is transformed from arithmetic speed $S$ by
@@ -31,6 +31,7 @@ Logarithmic speed $S°$ (s. Allbright,  [1991](https://doi.org/10.1080/00223638.
 $$S°=10\cdot\log10(S)+1=\frac{10\cdot\log{(S)}}{\log{(10)}}+1,\{(8)}$$
 
 $$S=10^{\frac{S°-1}{10}}.\{(9)}$$
+
 
 The *exposure value* $Ev$  is calculated from  $Tv$ and $Av$, where
 
@@ -92,13 +93,13 @@ Further manuals or introductory literature on photography are given by e.g. Hedg
 
 ## References
 
-Allbright, G. S. (1991). Emulsion Speed Rating Systems. *The Journal of Photographic Science 39* (2): 95–99. [https://doi.org/10.1080/00223638.1991.11737126](https://doi.org/10.1080/00223638.1991.11737126)
+Allbright, G. S. (1991). Emulsion Speed Rating Systems. *The Journal of Photographic Science, 39*(2), 95–9. [https://doi.org/10.1080/00223638.1991.11737126](https://doi.org/10.1080/00223638.1991.11737126)
 
-Beaver, J. (2018). Shutter Speed and Aperture. In *The Physics and Art of Photography*, 2:3-1 to 3-6. 2053-2571. Morgan & Claypool Publishers. [https://doi.org/10.1088/2053-2571/aae504ch3](https://doi.org/10.1088/2053-2571/aae504ch3)
+Beaver, J. (2018). Shutter Speed and Aperture. In *The Physics and Art of Photography*, 2, 3-1 to 3-6, 2053-2571. Morgan & Claypool Publishers. [https://doi.org/10.1088/2053-2571/aae504ch3](https://doi.org/10.1088/2053-2571/aae504ch3)
 
-Bernacki, J. (2020). Automatic Exposure Algorithms for Digital Photography. *Multimedia Tools and Applications 79* (19): 12751–76. [https://doi.org/10.1007/s11042-019-08318-1](https://doi.org/10.1007/s11042-019-08318-1)
+Bernacki, J. (2020). Automatic Exposure Algorithms for Digital Photography. *Multimedia Tools and Applications, 79*(19), 12751–76. [https://doi.org/10.1007/s11042-019-08318-1](https://doi.org/10.1007/s11042-019-08318-1)
 
-Cannon, T. M., & Hunt, B. R. (1981). Image Processing by Computer. *Scientific American 245* (4): 214–25. [http://www.jstor.org/stable/24964586](http://www.jstor.org/stable/24964586)
+Cannon, T. M., & Hunt, B. R. (1981). Image Processing by Computer. *Scientific American, 245*(4), 214–25. [http://www.jstor.org/stable/24964586](http://www.jstor.org/stable/24964586)
 
 Current, I., Compton, J. C., & Zakia, R. D. (2000). *Basic Photographic Materials and Processes*. Amsterdam: Elsevier Science; Technology. [https://books.google.com/books?id=maKozwEACAAJ](https://books.google.com/books?id=maKozwEACAAJ)
 
@@ -108,13 +109,13 @@ Hedgecoe, J. (1977). *The Photographer’s Handbook: A Complete Reference Manual
 
 ———.  (2009). *New Manual of Photography*. London: Dorling Kindersley Limited. [https://books.google.com/books?id=9N4C0HMzZFMC](https://books.google.com/books?id=9N4C0HMzZFMC)
 
-Hitchcock, M. (1989). Field Photography; a Guide to Basic Equipment. *Journal of Museum Ethnography*, no. 1: 4–6. [http://www.jstor.org/stable/40793474](http://www.jstor.org/stable/40793474)
+Hitchcock, M. (1989). Field Photography; a Guide to Basic Equipment. *Journal of Museum Ethnography, 1*, 4–6. [http://www.jstor.org/stable/40793474](http://www.jstor.org/stable/40793474)
 
 Howie, J. M. (2001). The Logarithmic and Exponential Functions. In *Real Analysis*, 165–79. London: Springer. [https://doi.org/10.1007/978-1-4471-0341-7_6](https://doi.org/10.1007/978-1-4471-0341-7_6)
 
 Jacobson, R., Ray, S., Attridge, G. G., & Axford, N. (2000). *Manual of Photography*. 9th ed. Oxfordshire, UK: Routledge. [https://doi.org/10.4324/9780080510965](https://doi.org/10.4324/9780080510965)
 
-Kenneth Mees, C. E. (1931). The Science of Photography. *Sigma Xi Quarterly 19* (1): 1–19. [http://www.jstor.org/stable/27824446](http://www.jstor.org/stable/27824446)
+Kenneth Mees, C. E. (1931). The Science of Photography. *Sigma Xi Quarterly, 19*(1), 1–19. [http://www.jstor.org/stable/27824446](http://www.jstor.org/stable/27824446)
 
 Marsden, J., & Weinstein, A. (1985). Exponentials and Logarithms. In *Calculus i*, 307–35. New York, NY: Springer. [https://doi.org/10.1007/978-1-4612-5024-1_9](https://doi.org/10.1007/978-1-4612-5024-1_9)
 
@@ -124,7 +125,7 @@ Roberts, G. (1995). Exposure. In *Mastering Photography*, 76–87. London: Macmi
 
 Schrausser, D. G. (2025). Schrausser/HP_Prime_MATH: 3.0. *Zenodo. June 2025*. [https://doi.org/10.5281/zenodo.14721085](https://doi.org/10.5281/zenodo.14721085)
 
-Simon, G., Vakulya, G., & Rátosi, M. (2022). The Way to Modern Shutter Speed Measurement Methods: A Historical Overview. *Sensors 22* (5): 1871. [https://doi.org/10.3390/s22051871](https://doi.org/10.3390/s22051871)
+Simon, G., Vakulya, G., & Rátosi, M. (2022). The Way to Modern Shutter Speed Measurement Methods: A Historical Overview. *Sensors, 22*(5), 1871. [https://doi.org/10.3390/s22051871](https://doi.org/10.3390/s22051871)
 
 Sobot, R. (2021). Exponential and Logarithmic Functions. In *Engineering Mathematics by Example*, 51–66. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-79545-0_4](https://doi.org/10.1007/978-3-030-79545-0_4)
  
