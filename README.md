@@ -52,13 +52,13 @@ Figure 1. Screenshots from `LV` application.
 
 Table 1. Exposure presets for $Tv$, $Av$ and $Ev$ (10) at *ISO 100/21°* by condition *cnd*.
 ~~~
-cnd    	 	Tv	Av	Ev
+cnd    	 		Tv		Av		Ev
 
-Sun  		125  	11	14
-Cloud 		125  	8	13
-Overcast  	60  	5.6	11
-Dawn 		15 	4	8
-Indoors 	15 	2.8	7
+Sun  			125  	11		14
+Cloud 			125  	8		13
+Overcast  		60  	5.6		11
+Dawn 			15 		4		8
+Indoors 		15 		2.8		7
 ~~~
 
 In addition, direct calculations (5) of aperture $Av$ from shutter speed $Tv$ (6) and $S$ (7) can be performed (c.f. Schrausser, [2025](https://doi.org/10.5281/zenodo.14721085)). This should be used when shutter speeds outside the usual steps (1) (2) are present or when only *a single* shutter speed is available, as in the case of the so-called mechanical *emergency* shutter speed (s. Fig. 2, Tab. 2).
@@ -70,21 +70,21 @@ Figure 2. Screenshots from `LV` application.
 
 Table 2. $Av$ for $Tv$ (5) (6) at *ISO 100/21°* and *ISO 400/27°* with $Ev$ (10) by condition *cnd*.
 ~~~
-cnd		Tv				Ev
-		250	100	60	45
+cnd				Tv								Ev
+				250		100		60		45
 ISO 100/21°
-Sun  		7.8  	12.3	15.9	18.3	13.9
-Cloud 		5.7  	9.0	11.6	13.3	13.0
-Overcast  	2.8  	4.3	5.6	6.5	10.9
-Dawn 		1.0 	1.6	2.0	2.3	7.9
-Indoors 	0.7 	1.1	1.4	1.6	6.9
+Sun  			7.8  	12.3	15.9	18.3	13.9
+Cloud 			5.7  	9.0		11.6	13.3	13.0
+Overcast  		2.8  	4.3		5.6		6.5		10.9
+Dawn 			1.0 	1.6		2.0		2.3		7.9
+Indoors 		0.7 	1.1		1.4		1.6		6.9
 
 ISO 400/27°	
-Sun		15.6	24.6	32.0	36.7	15.9
-Cloud		11.4	18.0	23.2	26.6	15.0
-Overcast	5.6	8.6	11.2	13.0	12.9
-Dawn		2.0	3.1	4.0	4.6	9.9
-Indoors		1.4	2.2	2.8	3.2	8.9
+Sun				15.6	24.6	32.0	36.7	15.9
+Cloud			11.4	18.0	23.2	26.6	15.0
+Overcast		5.6		8.6		11.2	13.0	12.9
+Dawn			2.0		3.1		4.0		4.6		9.9
+Indoors			1.4		2.2		2.8		3.2		8.9
 ~~~
 
 Further manuals or introductory literature on photography are given by e.g. Hedgecoe ([1977](https://books.google.com/books?id=eyXrAAAAMAAJ), [2009](https://books.google.com/books?id=9N4C0HMzZFMC)) and Jacobson et al. ([2000](https://doi.org/10.4324/9780080510965)), see also Kenneth Mees ([1931](http://www.jstor.org/stable/27824446)), Cannon and Hunt ([1981](http://www.jstor.org/stable/24964586)), Hitchcock ([1989](http://www.jstor.org/stable/40793474)), Current et al. ([2000](https://books.google.com/books?id=maKozwEACAAJ)), Friedman and Ross ([2003](https://doi.org/10.1007/978-3-642-55755-2)) or Pavlidis ([2022](https://doi.org/10.1007/978-3-031-06252-0)).
